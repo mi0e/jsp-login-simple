@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #555;
+	font-size: 15px;
+	line-height: 1.5;
+	background-color: #f7fafc;
+	text-align: center;
+}
+
+html, body {
+	height: 100%;
+}
+
+body, ul, ol, li, p {
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+}
+
+input:focus, select:focus {
+	outline: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+	cursor: pointer;
+}
+
+#wrapper {
+	width: 300px;
+	height: 1200px;
+	margin: 0 auto;
+	padding-top: 30px;
+	position: relative;
+}
+
+h2 {
+	margin: 30px 0;
+	font-weight: 400;
+	font-size: 23px;
+}
+
+.switch_nav {
+	margin: 10px 0 20px;
+}
+
+.switch_nav a {
+	color: #878787;
+	font-size: 18px;
+	text-align: center;
+	margin: 0 10px;
+	display: inline-block;
+}
+
+.switch_nav a:hover {
+	color: #555;
+}
+
+.switch_nav .switch_btn.on {
+	color: #0f88eb;
+	border-bottom: 2px solid #0f88eb;
+}
+
+.switch_nav .switch_btn {
+	color: #878787;
+}
+
+.switch_btn {
+	color: #878787;
+	text-decoration: none;
+}
+
+.group_input {
+	position: relative;
+	text-align: left;
+}
+
+.group_input input {
+	width: 274px;
+	padding: 16px 12px;
+	margin: -1px;
+	border: 1px solid #d5d5d5;
+	border-radius: 3px;
+	background-color: #fff;
+}
+
+.group_input li {
+	width: 800px;
+	position: relative;
+}
+
+.states .right a {
+	color: #555;
+}
+
+.submit_btn {
+	width: 100%;
+	box-shadow: none;
+	border: 0;
+	line-height: 45px;
+	font-size: 15px;
+	display: block;
+	margin: 20px 0;
+	color: #fff;
+	background-color: #0f88eb;
+	border-radius: 3px;
+}
+
+#input-box {
+	width: 30px;
+	border-radius: 13px;
+}
+
+.select {
+	font-size: 13px;
+	padding: 2px;
+	height: 27px;
+	border: solid 1px #d5d5d5
+}
+
+#feature {
+	border: solid 1px #d5d5d5;
+}
+
+#feature:focus {
+	outline: none;
+}
+
+.height {
+	height: 45px;
+	width: 300px;
+}
+
+.table {
+	width: auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+	empty-cells: show;
+	border: 1px solid #cbcbcb;
+}
+
+.table td {
+	text-align: center;
+	border-left: 1px solid #cbcbcb;
+	border-width: 0 0 0 1px;
+	font-size: inherit;
+	margin: 0;
+	overflow: visible;
+	padding: 5px;
+}
+
+.table thead {
+	background-color: #e0e0e0;
+	color: #000;
+	text-align: left;
+	vertical-align: bottom;
+}
+
+.table td {
+	background-color: transparent;
+}
