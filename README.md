@@ -1,3 +1,3 @@
 MySql_name : root
 
-MySql_pwd : root
+MySql_password : root
